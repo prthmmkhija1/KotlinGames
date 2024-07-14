@@ -2,7 +2,7 @@ package com.myapplication
 fun main() {
     var computerChoice=""
     var playerChoice=""
-    println("Rock,Paper or Scissor? Enter yout Choice!")
+    println("Rock,Paper or Scissor? Enter your Choice!")
     playerChoice=readln()
     val randomNumber=(1..3).random()
     when (randomNumber) {
@@ -16,7 +16,7 @@ fun main() {
             computerChoice="Scissor"
         }
     }
-    println(computerChoice)
+    println("Computer choice is: " + computerChoice)
     val winner=when{
         playerChoice==computerChoice -> "Tie"
         playerChoice=="Rock" && computerChoice=="Scissor" -> "Player"
