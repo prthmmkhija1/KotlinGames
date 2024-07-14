@@ -1,5 +1,4 @@
 package com.myapplication
-
 fun main() {
     var computerChoice=""
     var playerChoice=""
